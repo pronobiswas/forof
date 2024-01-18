@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+	<h1 id="headding"></h1>
+	<p id="demo"></p>
+
+	<section id="ForLoop">
+		<div class="container">
+			<h2>java script for loop</h2>
+		<p>ek e kaj babar korar jonno for loop calano hoy</p>
+
+		<p>
+		<pre>
+			<code>
+				for(let i = 0; i > 5; i++)(
+					let text = "";
+					text += i;
+				);
+			</code>
+		</pre>
+		</p>
+		<h3>pramitter 1</h3>
+		<p>
+		for lop a three(3) ti pramitar byabohar korajay
+		</p>
+		<p>
+		First expression a akadhik value assin kora jay "baire theke vale nite hole baire assin kore Loop er vitor Fixt expresssion
+		er vitor pas kore deya jay"
+		</p>
+		<p>
+		baire variable assin kore sei variable dhore take niye loop calano jay...sekhetre prothom parameeter OPTIONAl na diye o kaj korano jay
+		</p>
+		<p>
+		prothom prameetar er vitor ekta value initilize korte hoy "ekta <b>premitive valu</b> "
+		</p>
+	<p>
+		prothom code block ekbar e execute hoy
+	</p>
+	<h3>expression 2</h3>
+	<p>
+		ditiyo prmeeter a ekta condition dite hoy..."diteeeii" hoy...bola jay Number of time
+		kotobar repeat hobe...
+	</p>
+	<p>
+		trito parameter a bole dite hoy <strong>i++</strong> increment ABAR koro
+	</p>
+	<p>
+		Expression 3 can do anything like negative increment (i--), positive increment (i = i + 15), or anything else.
+	</p>
+	<p>
+		last value increement is deafult otyoeb eta o optional
+	</p>
+	<pre>
+		<code>
+			const cars = ["BMW", "Volvo", "Saab", "Ford"];
+
+				let i = 0;
+				let len = cars.length;
+				let text = "";
+
+				for (; i < len; ) {
+				text += cars[i] + "<br>";
+				i++;
+				}
+		</code>
+	</pre>
+	<p>
+		jehetu let redeclare korajay na scope maintain kore tai <b>let</b>koar hoy.
+	</p>
+		</div>
+	</section>
+
+	<section id="forInLoop">
+		<div class="container">
+
+			<h3>the javascript for in statement loop throw the the properties of an object</h3>
+			<code>
+				<pre>
+					const person = {fname:"John", lname:"Doe", age:25};
+
+					let text = "";
+					for (let x in person) {
+					text += person[x];
+					}
+				</pre>
+			</code>
+			<ol>
+				<li>
+					the for loop iterates over a object
+				</li>
+				<li>
+					each etaration returns a key
+				</li>
+				<li>
+					the key is used to access the value of the key
+				</li>
+				<li>
+					value er key hocche oi object er index number
+				</li>
+			</ol>
+			<p>
+				arry er vitor o "for In Loop calano jay"
+				kintu arry er vitor IndeX orrder gulan implementation-depended "{}"<br>
+				order er jonno Array.forEach() method byabohar kora jay
+			</p>
+			<p>
+				<code>
+					<pre>
+						const numbers = [45, 4, 9, 16, 25];
+
+						let txt = "";
+						numbers.forEach(myFunction);
+						document.getElementById("demo").innerHTML = txt;
+
+						function myFunction(value, index, array) {
+						txt += value + "<br>"; 
+						}
+						console.log(txt);
+					</pre>
+				</code>
+				eta array er ekta nijwoswo callback function ba method
+			</p>
+			<p>
+
+			</p>
+
+		</div>
+	</section>
+
+	<sectiom id="forOffLoop">
+		<div class="container">
+			
+		</div>
+	</sectiom>
+	
+
+
+	<script src="./js/sccript.js"></script>
+</body>
+</html>
