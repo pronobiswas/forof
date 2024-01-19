@@ -31,3 +31,11 @@
 //   txt += value + "<br>"; 
 // }
 // console.log(txt);
+const fruits = ["banana", "orange", "Apple", "mango"];
+
+const summerFruits = [];
+summerFruits[0] = ["apple", "banana", "lici"];
+summerFruits[1] = {payara:"green" , papaya:4};
+summerFruits[3] = "amader fal";
+let x = summerFruits.flat();
+console.log(x);
