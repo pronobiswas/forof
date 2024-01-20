@@ -38,12 +38,31 @@
 // summerFruits[1] = {payara:"green" , papaya:4};
 // summerFruits[3] = "amader fal";
 // let x = summerFruits.flat();
-let namta = document.getElementById("namta");
-let nums = [1,2,3,4,5,6,7,8,9,10];
-let num = ""
 
-for(let i = 0; i < 11; i++){
-    num +=5 + "x" + nums[i] + "=" + nums[i]*5 + "<br>";
-};
+// let namta = document.getElementById("namta");
+// let nums = [1,2,3,4,5,6,7,8,9,10];
+// let num = ""
 
-namta.innerHTML = num;
+// for(let i = 0; i < 11; i++){
+//     num +=5 + "x" + nums[i] + "=" + nums[i]*5 + "<br>";
+// };
+
+// namta.innerHTML = num;
+
+
+// const person ={
+//     fname:"jhon", lname: "Doe", age: 100
+// }
+// let text = " ";
+// for (let x in person){
+//     text += person[x]
+// };
+//  console.log(text);
+
+// const numberss = [1,2,13,24,35,46,57,68,79,80];
+// let text = "";
+// numberss.forEach(myFunction)
+// function myFunction(value,index,array){
+//     text += value;
+// };
+// console.log(numberss)
